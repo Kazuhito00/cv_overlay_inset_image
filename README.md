@@ -12,10 +12,10 @@ opencv-python 4.5.5.62 or later
 ```python
 from cv_overlay_inset_image import cv_overlay_inset_image
 
-debug_image = cv_overlay_inset_image(
+image = cv_overlay_inset_image(
     bg_image,
     fg_image,
-    click_point_history,
+    points,
 )
 ```
 
