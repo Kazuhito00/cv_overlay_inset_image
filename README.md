@@ -54,4 +54,5 @@ python sample.py --bg_image=sample.jpg --fg_device=0
 # License 
 cv_overlay_inset_image is under [Apache-2.0 license](LICENSE).<br><br>
 
-また、サンプル画像は[フリー素材ぱくたそ](https://www.pakutaso.com)様の[ずっと使われていない天井吊りのテレビの写真素材](https://www.pakutaso.com/20180344079post-15604.html)を利用しています。
+また、サンプル画像は[フリー素材ぱくたそ](https://www.pakutaso.com)様の<br>
+「[ずっと使われていない天井吊りのテレビの写真素材](https://www.pakutaso.com/20180344079post-15604.html)」を利用しています。
