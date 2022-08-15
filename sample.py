@@ -137,14 +137,6 @@ def main():
         # クリック位置取得
         click_point_history = cv_window.get_click_point_history()
 
-        # はめ込み画像生成
-        if len(click_point_history) == 4:
-            debug_image = cv_overlay_inset_image(
-                bg_image,
-                fg_image,
-                click_point_history,
-            )
-
         # デバッグ描画
         if len(click_point_history) < 4:
             for click_point in click_point_history:
@@ -162,6 +154,13 @@ def main():
                     (0, 0, 0),
                     -1,
                 )
+        # はめ込み画像生成
+        elif len(click_point_history) == 4:
+            debug_image = cv_overlay_inset_image(
+                bg_image,
+                fg_image,
+                click_point_history,
+            )
 
         # 画面反映
         cv_window.imshow(debug_image)
