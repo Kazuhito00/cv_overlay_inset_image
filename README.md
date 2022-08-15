@@ -20,7 +20,9 @@ debug_image = cv_overlay_inset_image(
 ```
 
 # Demo
-デモの実行方法は以下です。
+デモの実行方法は以下です。<br>
+マウス左クリックではめ込み画像の座標を指定します。<br>
+マウス右クリックで選択した座標をクリアします。
 ```bash
 python sample.py --bg_image=sample.jpg --fg_device=0
 ```
@@ -43,7 +45,7 @@ python sample.py --bg_image=sample.jpg --fg_device=0
 はめ込み用のWebカメラ画像のデバイス指定<br>
 デフォルト：指定なし
 
-※bg_movie、bg_image、bg_deviceは何れか一つを指定してください
+※bg_movie、bg_image、bg_deviceは何れか一つを指定してください<br>
 ※fg_movie、fg_image、fg_deviceは何れか一つを指定してください
 
 # Author
