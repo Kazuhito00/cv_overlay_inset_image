@@ -15,7 +15,7 @@ from cv_overlay_inset_image import cv_overlay_inset_image
 image = cv_overlay_inset_image(
     bg_image,
     fg_image,
-    points,
+    points,  # coordinates of 4 points
 )
 ```
 
